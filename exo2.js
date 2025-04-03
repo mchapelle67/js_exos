@@ -32,6 +32,10 @@ cliqueSurCouleur();
 // - quelle était la position de la souris,
 // et bien plus encore ...
 // 
-//  event.target: fait partis de l'objet (event), il fait référence à l'objet qui a déclanché l'événement. 
+// event.target: fait partis de l'objet (event), il fait référence à l'objet qui a déclanché l'événement. 
 // autrement dit, si tu as plusieurs éléments qui déclanchent des evenements, ça nous pemettra de savoir sur 
 // quel element l'evenement a eu lieu. 
+
+// diffence :
+// event.target: c'est l'élément précis qui a déclenché l'événement, celui sur lequel l'utilisateur a cliqué.
+// event.currentTarget: c'est l'élément auquel l'écouteur d'événement est attaché, même si l'événement provient d'un enfant.

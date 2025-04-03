@@ -120,3 +120,52 @@ h1 {
 .instagram {
     background-color: red;
 }
+
+/* EXERCICE 5 */
+
+body {
+    background-color: beige;
+}
+
+.citations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.citations div {
+    background-color: white;
+    margin: 20px 100px 20px 100px;
+    padding: 20px 100px 20px 100px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.citations p {
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+}
+
+.citations h1 {
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: start;
+}
+
+.citations h2 {
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: end;
+    margin-right: 10px
+}
+
+.citation h2 button {
+    margin: 20px;
+    font-size: 0.8em;
+}
+
+.citation h2 button:hover {
+    opacity: 0.5;
+}
+
